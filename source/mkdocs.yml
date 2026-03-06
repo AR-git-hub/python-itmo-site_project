@@ -1,0 +1,29 @@
+site_name: AR portfolio
+theme:
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Переключить на тёмную тему
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Переключить на светлую тему
+nav:
+  - Главная: index.md
+  - Об авторе: about.md
+  - Достижения:
+    - Учебные достижения: achievements/academic.md
+    - Исследовательская деятельность: achievements/research.md
+    - Общественная и организаторская: achievements/social.md
+    - Культурно-творческие достижения: achievements/cultural.md
+  - Проекты:
+      - Проект 1: projects/project1.md
+      - Проект 2: projects/project2.md
+      - Проект 3: projects/project3.md
+      - Проект 4: projects/project4.md
+      - Проект 5: projects/project5.md
+
+plugins:
+  - search

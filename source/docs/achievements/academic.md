@@ -2,12 +2,12 @@
 
 ## Успеваемость
 - Отличник. По итогам семестра получил автоматические зачеты по всем дисциплинам, включая курс «Тренды ИИ» от Александра Бухановского (вошел в топ 10 из 150+ студентов).
-Потверждение в ИСУ: ![ису](materials/img/isu.png)
+Потверждение в ИСУ: ![ису](./materials/img/isu.png)
 
 ## Хакатоны
 - **Хакатон от ГПН** – оценка за проект 5.0. Обучение BERT для классификации корпоративных писем.
 [GitHub](https://github.com/AR-git-hub/GPN_Hackaton_ARTeam)
-![Скриншоты](materials/img/hak1.png)![img2](materials/img/hak2.png)![img3](materials/img/hak3.png)
+![Скриншоты](./materials/img/hak1.png)![img2](./materials/img/hak2.png)![img3](./materials/img/hak3.png)
 
 ## Учебные проекты
 ### **Веб-приложение для финансового учета с CRM**  
@@ -21,8 +21,8 @@
 ### **Работа по криптографии** 
 Шифры Хилла и кода Хэмминга. Оформление в LaTeX.  
 
-  [PDF отчет](pdf/Math.pdf)
-  ![preview](img/image11.png)
+  [PDF отчет](.\materials\pdf\Math.pdf)
+  ![preview](.\materials\img\image11.png)
 - **Мегашкола ИТМО. Система генерации Mermaid-кода из диаграмм BPMN/UML**  
   Преобразование изображений бизнес-процессов в код Mermaid и текстовое описание.  
 
@@ -32,11 +32,11 @@
 
   *BPMN-диаграмма:* 
 
-  ![BPMN](materials\img\image3.png)
+  ![BPMN](.\materials\img\image3.png)
   
   *Код:* 
 
-  ![Mermaid-код](materials\img\image.png)
+  ![Mermaid-код](.\materials\img\image.png)
 
 ### **Репозиторий с лабораторными работами по Python**
 Решения учебных задач и проектов. Например, сайт для подписки на курсы валют API ЦБ РФ (ЛР7-ЛР9)

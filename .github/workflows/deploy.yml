@@ -32,6 +32,9 @@ jobs:
       - name: Build site
         run: mkdocs build --config-file source/mkdocs.yml
 
+      - name: Check build output
+        run: ls -la
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

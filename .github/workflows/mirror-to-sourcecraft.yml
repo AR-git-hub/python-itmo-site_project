@@ -1,0 +1,27 @@
+name: Mirror to SourceCraft
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SOURCECRAFT_SSH_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan sourcecraft.dev >> ~/.ssh/known_hosts
+
+      - name: Push to SourceCraft
+        run: |
+          git remote add sourcecraft git@sourcecraft.dev/05252/python-itmo-site_project.git
+          git push -f sourcecraft main

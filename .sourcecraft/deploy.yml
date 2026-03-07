@@ -1,0 +1,14 @@
+name: Deploy MkDocs site to SourceCraft
+
+on:
+  push:
+    workflows: build-site
+    filter:
+      branches: main
+
+workflows:
+  build-site:
+    tasks:
+      - name: build-site
+        cubes:
+          

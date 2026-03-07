@@ -5,14 +5,22 @@ site_dir: ../site
 theme:
   name: material
   palette:
+    # Светлая тема (Material default)
     - scheme: default
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/weather-sunny
         name: Переключить на тёмную тему
+
+    # Тёмная тема (Material slate) с цветами, напоминающими Dracula
     - scheme: slate
+      primary: deep purple
+      accent: pink
       toggle:
         icon: material/weather-night
         name: Переключить на светлую тему
+      
 nav:
   - Главная: index.md
   - Об авторе: about.md

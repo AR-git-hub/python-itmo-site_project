@@ -68,11 +68,14 @@
 
 ## Графики
 
-Тепловая карта корреляций – ![1](../materials/img/heatmap.png)
+Тепловая карта корреляций – 
+![1](../materials/img/heatmap.png)
 
-Гистограмма – ![2](../materials/img/histogram.png)
+Гистограмма – 
+![2](../materials/img/histogram.png)
 
-График зависимости – ![3](../materials/img/line_plot.png)
+График зависимости – 
+![3](../materials/img/line_plot.png)
 
 ## **Организация рабочего пространства и Кодовая база**
 ```

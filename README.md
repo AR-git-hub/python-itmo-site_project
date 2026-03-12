@@ -1,7 +1,8 @@
 # Рябков Александр. Сайт-портфолио
 
 **Сайт** (на платформе GitHub Pages) доступен **по адресу:** [https://ar-git-hub.github.io/python-itmo-site_project/](https://ar-git-hub.github.io/python-itmo-site_project/)
-**Сайт** (на платформе SourceCraft) доступен **по адресу:** [https://ar-git-hub.github.io/python-itmo-site_project/](https://05252.sourcecraft.site/python-itmo-site-project)
+
+**Сайт** (на платформе SourceCraft) доступен **по адресу:** [https://05252.sourcecraft.site/python-itmo-site-project](https://05252.sourcecraft.site/python-itmo-site-project)
 
 ## Обоснование к первому техническому заданию
 

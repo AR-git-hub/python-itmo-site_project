@@ -25,6 +25,7 @@ jobs:
           echo "key length: ${#SOURCECRAFT_SSH_KEY}"
         env:
           SOURCECRAFT_SSH_KEY: ${{ secrets.SOURCECRAFT_SSH_KEY }}
+          
       - name: Setup SSH agent
         uses: webfactory/ssh-agent@v0.9.0
         with:

@@ -5,19 +5,15 @@ on:
       branches: main
 
 workflows:
-  build-site:
+  build-and-deploy:
     tasks:
-      - name: build-site
+      - name: build
         cubes:
-          - name: build-mkdocs
-            image: python:3.13-slim
+          - name: setup-python
+            image: python:3.13
             script:
               - pip install -r requirements.txt
               - mkdocs build --config-file source/mkdocs.yml
-            
-          - name: publish-site
-            script:
-              - git checkout -b release
-              - git add site
-              - "git commit -m 'feat: release'"
-              - git push origin release -f
+            artifacts:
+              paths:
+                - ./site

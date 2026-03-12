@@ -1,4 +1,4 @@
 site:
   root: site
-  ref: main
+  ref: release
 

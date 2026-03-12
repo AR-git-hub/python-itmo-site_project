@@ -21,8 +21,8 @@
 ### **Работа по криптографии** 
 Шифры Хилла и кода Хэмминга. Оформление в LaTeX.  
 
-  [PDF отчет](..\materials\pdf\Math.pdf)
-  ![preview](..\materials\img\image11.png)
+  [PDF отчет](../materials/pdf/Math.pdf)
+  ![preview](../materials/img/image11.png)
 - **Мегашкола ИТМО. Система генерации Mermaid-кода из диаграмм BPMN/UML**  
   Преобразование изображений бизнес-процессов в код Mermaid и текстовое описание.  
 
@@ -32,11 +32,11 @@
 
   *BPMN-диаграмма:* 
 
-  ![BPMN](..\materials\img\image3.png)
+  ![BPMN](../materials/img/image3.png)
   
   *Код:* 
 
-  ![Mermaid-код](..\materials\img\image.png)
+  ![Mermaid-код](../materials/img/image.png)
 
 ### **Репозиторий с лабораторными работами по Python**
 Решения учебных задач и проектов. Например, сайт для подписки на курсы валют API ЦБ РФ (ЛР7-ЛР9)

@@ -1,6 +1,6 @@
 on:
   push:
-    workflows: build-site
+    workflows: build-and-deploy
     filter:
       branches: main
 
@@ -13,7 +13,7 @@ workflows:
             image: python:3.13
             script:
               - pip install -r requirements.txt
-              - mkdocs build --config-file source/mkdocs.yml
+              - cd source && mkdocs build
             artifacts:
               paths:
-                - ./site
+                - ./source/site

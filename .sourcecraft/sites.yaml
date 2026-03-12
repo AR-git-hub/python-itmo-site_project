@@ -1,4 +1,4 @@
 site:
-  root: source
+  root: source/site
   ref: main
 

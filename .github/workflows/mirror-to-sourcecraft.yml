@@ -32,5 +32,5 @@ jobs:
 
       - name: Push to SourceCraft
         run: |
-          git remote add sourcecraft git@sourcecraft.dev:05252/python-itmo-site_project.git
+          git remote add sourcecraft git@sourcecraft.dev:05252/python-itmo-site-project.git
           git push -f sourcecraft main

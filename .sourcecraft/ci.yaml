@@ -15,8 +15,8 @@ workflows:
               - pip install -r requirements.txt
               - mkdocs build --config-file source/mkdocs.yml
               - git checkout -b release || git checkout release
-              - rm -rf ./*
-              - cp -r site/* .
+              - git rm -rf .   # удаляем все отслеживаемые файлы (кроме .git)
+              - cp -r site/* . # копируем собранный сайт в корень
               - git add .
               - git commit -m "Deploy site [skip ci]" || echo "Nothing to commit"
-              - git push origin release -f
+              - git push origin release -f  

@@ -36,6 +36,5 @@ jobs:
           
       - name: Push to SourceCraft
         run: |
-          git remote remove sourcecraft
           git remote add sourcecraft ssh://ssh.sourcecraft.dev/05252/python-itmo-site-project.git
           git push -f sourcecraft main

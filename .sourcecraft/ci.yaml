@@ -9,14 +9,12 @@ workflows:
     tasks:
       - name: build-site
         cubes:
-          - name: install-deps
-            image: node:22-slim
+          - name: build-mkdocs
+            image: python:3.13-slim
             script:
-              - npm ci
-          - name: build-site
-            image: node:22-slim
-            script:
-              - npm run build
+              - pip install -r requirements.txt
+              - mkdocs build --config-file source/mkdocs.yml
+            
           - name: publish-site
             script:
               - git checkout -b release

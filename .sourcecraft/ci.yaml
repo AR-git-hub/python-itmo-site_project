@@ -13,9 +13,7 @@ workflows:
             image: python:3.13
             script:
               - pip install -r requirements.txt
-              - mkdocs build --config-file source/mkdocs.yml
-              # для проверки (необязательно)
-              - ls -la source/site
+              - mkdocs build --config-file source/mkdocs.yml --site-dir source/site
             artifacts:
               paths:
-                - source/site   # без точки, просто папка
+                - source/site

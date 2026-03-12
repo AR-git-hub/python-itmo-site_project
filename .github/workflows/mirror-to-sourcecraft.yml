@@ -13,13 +13,24 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
-      - name: Setup SSH
+          
+      - name: Check environment
         run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.SOURCECRAFT_SSH_KEY }}" > ~/.ssh/id_ed25519
-          chmod 600 ~/.ssh/id_ed25519
-          ssh-keyscan sourcecraft.dev >> ~/.ssh/known_hosts
+          whoami
+          pwd
+          ls -la ~/
+
+      - name: Debug secret
+        run: |
+          echo "key length: ${#SOURCECRAFT_SSH_KEY}"
+        env:
+          SOURCECRAFT_SSH_KEY: ${{ secrets.SOURCECRAFT_SSH_KEY }}
+      # - name: Setup SSH
+      #   run: |
+      #     mkdir -p ~/.ssh
+      #     echo "${{ secrets.SOURCECRAFT_SSH_KEY }}" > ~/.ssh/id_ed25519
+      #     chmod 600 ~/.ssh/id_ed25519
+      #     ssh-keyscan sourcecraft.dev >> ~/.ssh/known_hosts
 
       - name: Push to SourceCraft
         run: |

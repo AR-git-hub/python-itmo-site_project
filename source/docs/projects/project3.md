@@ -12,7 +12,7 @@
 - сборка и деплой сайта из репозитория на Github с помощью артефактов и GitHub Actions через платформу GitHub Pages
 - сборка в ветку *release* и деплой сайта из репозитория на SourceCraft
 
-**Результат:**
+**Результат**:
 - **Сайт** (на платформе _GitHub Pages_) доступен **по адресу:** [https://ar-git-hub.github.io/python-itmo-site_project](https://ar-git-hub.github.io/python-itmo-site_project)
 - **Сайт** (на платформе _SourceCraft_) доступен **по адресу:** [https://05252.sourcecraft.site/python-itmo-site-project](https://05252.sourcecraft.site/python-itmo-site-project)
 - **Репозиторий** сайта на *Github*: https://github.com/AR-git-hub/python-itmo-site_project?tab=readme-ov-file

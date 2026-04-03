@@ -5,7 +5,8 @@
 
 ## Результат автоматизации
 
-**Событие-триггер**: push в [репозиторий с сайтом](https://github.com/AR-git-hub/python-itmo-site_project) в ветку *main* на GitHub.
+**Событие-триггер**: 
+push в [репозиторий с сайтом](https://github.com/AR-git-hub/python-itmo-site_project) в ветку *main* на GitHub.
 
 **Действия**:
 

@@ -1,6 +1,6 @@
 # **Проект 4**
 
-*Решение:* [репозиторий гитхаб](https://github.com/AR-git-hub/ITMO.py/tree/main/second_semester/LR4.%20Scikit-learn.%20Classification)
+*Решение:* [репозиторий GitHub.](https://github.com/AR-git-hub/ITMO.py/tree/main/second_semester/LR4.%20Scikit-learn.%20Classification)
 
 ## Цель и описание работы
 

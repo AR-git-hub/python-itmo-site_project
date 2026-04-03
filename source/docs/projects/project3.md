@@ -8,6 +8,7 @@
 **Событие-триггер**: push в [репозиторий с сайтом](https://github.com/AR-git-hub/python-itmo-site_project) в ветку *main* на GitHub.
 
 **Действия**:
+
 - зеркалирование пуша в [репозиторий с сайтом на SourceCraft](https://sourcecraft.dev/05252/python-itmo-site-project)
 - сборка и деплой сайта из репозитория на Github с помощью артефактов и GitHub Actions через платформу GitHub Pages
 - сборка в ветку *release* и деплой сайта из репозитория на SourceCraft

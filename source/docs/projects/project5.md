@@ -1,6 +1,6 @@
 # **Проект 5**
 
-Решение: [репозиторий GitHub.](https://github.com/AR-git-hub/ITMO.py/tree/main/second_semester/LR5.%20Scikit-learn.%20Regression)
+*Решение:* [репозиторий GitHub.](https://github.com/AR-git-hub/ITMO.py/tree/main/second_semester/LR5.%20Scikit-learn.%20Regression)
 ## Цель и описание работы
 
 **Цель:** Построение модели машинного обучения для прогнозирования рыночной стоимости недвижимости на основе набора характеристик.  
